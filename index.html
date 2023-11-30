@@ -3,27 +3,29 @@
         <title>Spotify</title>
     </head>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="react.js"></script>
 
 <boady>
-    
-    <nav class="border-b-2 border-black">
-        <div class="container flex justify-between m-auto py-3">
-            <img src="./your-fav-logo.png" class="h-12 mt-2" alt="logo">
-            <ul class="px-28 py-4 flex space-x-11 justify-end">
-                <li class="cursor-pointer">Home</li>
-                <li class="cursor-pointer">About</li>
-                <li class="cursor-pointer">Blog</li>
-                <li class="cursor-pointer">Contact Us</li>
+    <nav class="sticky top-0 bg-white">
+        <div class="container flex justify-between m-auto py-4">
+            <img src="./your-fav-logo.png" class="h-12" alt="logo">
+            <ul class=" flex space-x-3 justify-end">
+                <li class="cursor-pointer hover:bg-[#6a2055] px-4 rounded-lg py-1 my-2 hover:text-white text-[20px]"><i class="fa-solid fa-home"></i></li>
+                <li class="cursor-pointer hover:bg-[#6a2055] px-4 rounded-lg py-1 my-2 hover:text-white text-[20px]"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li class="cursor-pointer hover:bg-[#6a2055] px-4 rounded-lg py-1 my-2 hover:text-white text-[20px]"><i class="fa-brands fa-blogger-b"></i></li>
+                <li class="cursor-pointer hover:bg-[#6a2055] px-4 rounded-lg py-1 my-2 hover:text-white text-[20px]"><i class="fa-solid fa-address-book"></i></li>
             </ul>
         </div>
     </nav>
-    <div class="row bg-[url(./images/img02.jpg)] bg-no-repeat bg-bottom">
-        <div class="main container m-auto py-[12%]">
-            <div class="text-white">
-                <h1 class="font-serif text-5xl">Your Fav. Songs</h1>
-                <hr class="w-2/6 my-4">
-                <p class="text-base">Listen Whatever you like... <br> Feel the music and relax your mind...</p>
-                <div class="w-[200px] bg-[#F4E2DE] p-3 mt-2.5 rounded-lg text-center text-[#6A2055] hover:bg-[#6A2055] hover:text-[#F4E2DE]"> Contact Us! </div>
+    <div class="row bg-[url(./images/img02.jpg)] bg-no-repeat bg-bottom bg-cover">
+        <div class="bg-gradient-to-r from-[#14141450]">
+            <div class="main container m-auto py-[14%]">
+                <div class="text-white">
+                    <h1 class="font-serif text-5xl">Your Fav. Songs</h1>
+                    <hr class="w-2/6 my-4">
+                    <p class="text-base">Listen Whatever you like... <br> Feel the music and relax your mind...</p>
+                    <div class="w-[200px] bg-[#F4E2DE] p-3 mt-2.5 rounded-lg text-center text-[#6A2055] hover:bg-[#6A2055] hover:text-[#F4E2DE]"> Contact Us! </div>
+                </div>
             </div>
         </div>
     </div>
@@ -38,6 +40,8 @@
     </div>
 
 </boady>
+
+<script src="https://kit.fontawesome.com/513bc71f1a.js" crossorigin="anonymous"></script>
 
 </html>
 
