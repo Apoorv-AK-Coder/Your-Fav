@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #141414;
+    --secondry-color: #fff;
+    --third-color: #ff6cab;
+    --fourth-color: #7f66f8;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    margin: auto;
+    z-index: 1;
+    padding: 20px 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 3px 3px rgba(255, 255, 255, 0.3);
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    color: var(--secondry-color);
+    list-style: none;
+    font-size: 25px;
+    padding: 0 10px;
+    margin: 0 0 0 10px;
+    line-height: 0 !important;
+}
+
+nav ul li:hover {
+    cursor: grab;
+    color: var(--third-color);
+}
+
+nav ul li:active {
+    cursor: grabbing;
+}
