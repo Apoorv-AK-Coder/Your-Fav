@@ -5,14 +5,12 @@
     --fourth-color: #7f66f8;
 }
 
+/* * {gap: 15px;} */
+
 body {
     margin: 0;
     padding: 0;
     background-color: var(--primary-color);
-}
-
-.group {
-    background-color: black;
 }
 
 .group .row {
@@ -50,7 +48,6 @@ p2 {
 
 h1 {
     font-family: Vollkorn;
-    /* color: var(--third-color); */
     background: linear-gradient(0deg, var(--fourth-color), var(--third-color), var(--secondry-color));
     -webkit-background-clip: text;
     color: transparent;
@@ -114,4 +111,16 @@ button:hover {
     cursor: grab;
 }
 
-button:active {cursor: grabbing;}
+button:active {
+    cursor: grabbing;
+}
+
+
+p3 {
+    font-family: Vollkorn;
+    color: var(--secondry-color);
+    font-size: 20px;
+    line-height: 1.35;
+    margin: 0;
+    font-weight: 600;
+}

@@ -5,4 +5,23 @@
     --fourth-color: #7f66f8;
 }
 
-img {height: 100px !important;}
+img {
+    height: 200px !important;
+}
+
+.feet {
+    background-image: linear-gradient(45deg, var(--third-color), var(--fourth-color));
+}
+
+.foot {
+    /* background-color: var(--third-color); */
+    padding: 20px 0 !important;
+}
+
+.foot-feet {
+    border-top: 3px dotted var(--secondry-color);
+    background-image: linear-gradient(45deg, #141414af, #141414af), url('../images/footer-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
