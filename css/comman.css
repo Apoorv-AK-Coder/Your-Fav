@@ -119,8 +119,17 @@ button:active {
 p3 {
     font-family: Vollkorn;
     color: var(--secondry-color);
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.35;
     margin: 0;
     font-weight: 600;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
